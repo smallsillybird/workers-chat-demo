@@ -424,15 +424,15 @@ function join() {
       if (!wroteWelcomeMessages) {
         wroteWelcomeMessages = true;
         addChatMessage(null,
-            "* Welcome Back to ChatPage");
+            "* Welcome Back!");
         addChatMessage(null,
-            "* ---Restart---");
+            "* Talk about whatever you want.");
         if (roomname.length == 64) {
           addChatMessage(null,
               "* This is a private room. You can invite someone to the room by sending them the URL.");
         } else {
           addChatMessage(null,
-              "* Welcome to #" + roomname + ". Say hi!");
+              "* This is Chatroom" + roomname + ".");
         }
       }
     } else {
