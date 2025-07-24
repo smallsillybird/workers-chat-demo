@@ -424,7 +424,7 @@ function join() {
       if (!wroteWelcomeMessages) {
         wroteWelcomeMessages = true;
         addChatMessage(null,
-            "* Welcome Back!");
+            "* Welcome Back," + name-input + ".");
         addChatMessage(null,
             "* Talk about whatever you want.");
         if (roomname.length == 64) {
@@ -432,7 +432,7 @@ function join() {
               "* This is a private room. You can invite someone to the room by sending them the URL.");
         } else {
           addChatMessage(null,
-              "* This is Chatroom" + roomname + ".");
+              "* This is Chatroom '" + roomname + "'.");
         }
       }
     } else {
