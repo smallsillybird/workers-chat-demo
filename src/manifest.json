@@ -8,12 +8,12 @@
 	// 应用的图标对应不同尺寸
 	"icons": [
 		{
-			"src": "/logo/logo-192.png",
+			"src": "/src/android-chrome-192x192.png",
 			"type": "image/png",
 			"sizes": "192x192"
 		},
 		{
-			"src": "/logo/logo-512.png",
+			"src": "/src/android-chrome-512x512.png",
 			"type": "image/png",
 			"sizes": "512x512"
 		}
