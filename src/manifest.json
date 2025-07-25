@@ -19,7 +19,7 @@
 		}
 	],
 	// 应用启动时应该打开的URL，这里打开了首页且带了个参数source=pwa
-	"start_url": "/index.html",
+	"start_url": "/",
 	// 使页面显示效果为沉浸式 没有地址栏和底部状态栏
 	"display": "standalone",
 	// 导航界面的背景颜色
